@@ -10,7 +10,7 @@ class SignsProv extends ChangeNotifier {
   SignsApi? lastFetched = null;
 
   Future<SignsApi> fetchData(String signName) async {
-    final url = Uri.https(
+    final url = Uri.http(
         Constants.baseUrl, "${Constants.baseUrl1}/${signName.toLowerCase()}");
 
     var data = await http.get(url);

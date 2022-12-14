@@ -7,7 +7,7 @@ class SignsApi {
 
   factory SignsApi.fromJson(Map<String, dynamic> json) {
     return SignsApi(
-      sign: json['sign'],
+      sign: json['name'],
       date: DateTime.parse(json["date"]),
       horoscope: json['horoscope'],
     );

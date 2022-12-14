@@ -65,7 +65,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
     return Scaffold(
         backgroundColor: const Color.fromARGB(255, 184, 56, 99),
         appBar: AppBar(
-          leadingWidth: 8,
           centerTitle: true,
           title: const Text("Daily Horoscope App"),
           toolbarHeight: 85,
